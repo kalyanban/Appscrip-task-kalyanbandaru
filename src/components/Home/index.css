@@ -1,0 +1,42 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+}
+.button-tabs-container {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+    padding: 15px;
+    align-self: flex-start;
+}
+.button-tab {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.text-heading {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.text-info {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+@media screen and (min-width: 414px) {
+    .button-tabs-container {
+        display: none;
+    }
+}

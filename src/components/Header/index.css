@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.navbar-left-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 16%;
+}
+.navbar-right-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 26%;
+}
+.select, .profile-icon {
+    display: none;
+}
+.tabs-container {
+    display: none;
+}
+
+@media screen and (min-width: 414px) {
+    .mat-design {
+        display: none;
+    }
+    .select {
+        display: flex;
+        align-items: center;
+        border: none;
+    }
+    .options {
+        font-weight: bold;
+    }
+    .profile-icon {
+        display: block;
+    }
+    .tabs-container {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        justify-content: space-between;
+    }
+    .nav-tab {
+        border: none;
+        background-color: transparent;
+        font-weight: bold;
+    }
+}
